@@ -24,6 +24,8 @@ $panel
     ]);
 ```
 
+Now your filamentphp projects stands out with smooth corners! 💫
+
 ## Credits
 
 - [Suman Shrestha](https://github.com/Summonshr)
