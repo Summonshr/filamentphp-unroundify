@@ -1,4 +1,4 @@
-# Nullify round corners in filamentphp
+# Nullify rounded corners in filamentphp
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/summonshr/unroundify.svg?style=flat-square)](https://packagist.org/packages/summonshr/unroundify)
 [![Total Downloads](https://img.shields.io/packagist/dt/summonshr/unroundify.svg?style=flat-square)](https://packagist.org/packages/summonshr/unroundify)
