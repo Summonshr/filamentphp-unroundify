@@ -20,7 +20,7 @@ composer require summonshr/filamentphp-unroundify
 ```php
 $panel
     ->plugins([
-        new UnroundifyPlugin(),
+        new UnroundifyPlugin(excludes: ['fi-avatar'], includes: ['fi-another-class', 'fi-circular']),
     ]);
 ```
 Yep, just this much.
