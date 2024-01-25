@@ -1,9 +1,11 @@
-# Nullify rounded corners in filamentphp
+# Nullify round corners in filamentphp
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/summonshr/unroundify.svg?style=flat-square)](https://packagist.org/packages/summonshr/unroundify)
 [![Total Downloads](https://img.shields.io/packagist/dt/summonshr/unroundify.svg?style=flat-square)](https://packagist.org/packages/summonshr/unroundify)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+This package provides a solution to nullify round corners in filamentphp. It allows you to easily remove round corners from your filamentphp projects. 
+
+To get started, you can install the package via composer by running the following command:
 
 ## Installation
 
