@@ -1,11 +1,7 @@
-# This is my package unroundify
+# Nullify round corners in filamentphp
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/summonshr/unroundify.svg?style=flat-square)](https://packagist.org/packages/summonshr/unroundify)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/summonshr/unroundify/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/summonshr/unroundify/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/summonshr/unroundify/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/summonshr/unroundify/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/summonshr/unroundify.svg?style=flat-square)](https://packagist.org/packages/summonshr/unroundify)
-
-
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
@@ -17,61 +13,18 @@ You can install the package via composer:
 composer require summonshr/unroundify
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="unroundify-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="unroundify-config"
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="unroundify-views"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
 ## Usage
 
 ```php
-$unroundify = new Summonshr\Unroundify();
-echo $unroundify->echoPhrase('Hello, Summonshr!');
+$panel
+    ->plugins([
+        new UnroundifyPlugin(),
+    ]);
 ```
-
-## Testing
-
-```bash
-composer test
-```
-
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
-
-## Security Vulnerabilities
-
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
 
 ## Credits
 
 - [Suman Shrestha](https://github.com/Summonshr)
-- [All Contributors](../../contributors)
 
 ## License
 
