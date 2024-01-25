@@ -23,6 +23,7 @@ $panel
         new UnroundifyPlugin(),
     ]);
 ```
+Yep, just this much.
 
 Now your filamentphp projects stands out with smooth corners! 💫
 
