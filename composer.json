@@ -35,6 +35,7 @@
             "Summonshr\\Unroundify\\Tests\\": "tests/"
         }
     },
-    "minimum-stability": "dev",
+    "version": "v0.0.1",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
