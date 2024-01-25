@@ -1,15 +1,15 @@
 {
-    "name": "summonshr/unroundify",
+    "name": "summonshr/filamentphp-unroundify",
     "description": "A filamentphp package to nullify roundness in default filamentphp ui.",
     "keywords": [
         "Summonshr",
         "laravel",
         "unroundify"
     ],
-    "homepage": "https://github.com/summonshr/unroundify",
+    "homepage": "https://github.com/summonshr/filamentphp-unroundify",
     "support": {
-        "issues": "https://github.com/summonshr/unroundify/issues",
-        "source": "https://github.com/summonshr/unroundify"
+        "issues": "https://github.com/summonshr/filamentphp-unroundify/issues",
+        "source": "https://github.com/summonshr/filamentphp-unroundify"
     },
     "license": "MIT",
     "authors": [
